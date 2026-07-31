@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+source: https://movius.ai/security-compliance/
+url: https://movius.ai/security-compliance/
+certifications:
+- SOC 2 Type 2
+- ISO 27001
+- ISO 9001
+- HIPAA
+- HITECH
+- FedRAMP
+- GovRAMP
+- FISMA
+- PCI DSS
+- GDPR
+- FIPS 140-2 Level 3
+encryption:
+  in_transit: TLS 256-bit AES
+  at_rest: 256-bit AES, FIPS 140-2 Level 3 compliant HSMs, customer-owned encryption keys
+testing:
+  penetration_testing: Manual penetration testing performed annually.
+regulatory_support:
+- FINRA
+- SEC
+- MiFID II
+- FCA COBS
+evidence:
+- source: https://movius.ai/security-compliance/
+  keywords:
+  - soc 2 type 2
+  - iso 27001
+  - hipaa
+  - fedramp
+  - fips 140-2
+  - gdpr

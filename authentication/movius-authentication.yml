@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://help.moviuscorp.com/help/add-api-user
+docs: https://help.moviuscorp.com/help/add-api-user
+summary:
+  types:
+  - http
+  http_schemes:
+  - basic
+  notes: >-
+    The MultiLine Management REST API is enterprise-gated. There is no public
+    OpenAPI specification. Access is authenticated with an API user account
+    created in the Movius Management Portal; the API user receives a username
+    and password by email that is then used to consume the API (HTTP basic
+    authentication). API users are scoped to the external application(s) they
+    are authorized for (e.g. HttpApi generic connector, or the MultiLine for
+    Salesforce app).
+schemes:
+- name: apiUserBasic
+  type: http
+  scheme: basic
+  description: >-
+    Username and password issued to a Management Portal API user, used as HTTP
+    basic credentials when calling the MultiLine Management REST API.
+  sources:
+  - https://help.moviuscorp.com/help/add-api-user

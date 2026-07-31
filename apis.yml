@@ -1,22 +1,108 @@
 aid: movius
 name: Movius
-description: Movius is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Movius is a secure enterprise mobile communications company whose flagship
+  product, MultiLine, gives employees a separate, compliant business identity
+  (voice, SMS, MMS, and social messaging across WhatsApp, WeChat, Line, and
+  Microsoft Teams) on their personal phones. Marketed as SCaaS (Secure
+  Communication as a Service), the platform is built for regulated industries
+  such as financial services, healthcare, and government, capturing and
+  archiving all communications for FINRA, SEC, MiFID II, FCA COBS, HIPAA, and
+  GDPR compliance. Movius exposes an admin/management REST API through its
+  Management Portal that lets external applications provision and manage API
+  users, assign and reassign numbers, configure compliance policies, and pull
+  reports and communication records into cloud archival systems, alongside
+  packaged integrations for Salesforce and Microsoft Teams.
 url: https://raw.githubusercontent.com/api-evangelist/movius/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
-specificationVersion: '0.20'
-created: '2026-07-17'
-modified: '2026-07-17'
 tags:
 - Company
-apis: []
+- Communications
+- Messaging
+- Mobile
+- Telecom
+- Compliance
+- Security
+- Voice
+- SMS
+- Enterprise
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-20'
+image: https://movius.ai/wp-content/uploads/2021/09/movius-logo.png
+apis:
+- name: MultiLine Management REST API
+  description: >-
+    Admin/management REST API for MultiLine, used to connect external
+    applications to a Movius organization. Supports provisioning and managing
+    API users, assigning and reassigning business numbers, configuring
+    compliance policies, and retrieving reports and archived communication
+    records. Access is granted to API users created in the Management Portal;
+    authentication is HTTP basic (username and password issued to the API user).
+  humanURL: https://help.moviuscorp.com/help/add-api-user
+  baseURL: https://help.moviuscorp.com/help/add-api-user
+  properties:
+  - type: Documentation
+    url: https://help.moviuscorp.com/help
+  - type: Authentication
+    url: authentication/movius-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/movius-domain-security.yml
+- type: Authentication
+  url: authentication/movius-authentication.yml
+- type: Conformance
+  url: conformance/movius-conformance.yml
+- type: Lifecycle
+  url: lifecycle/movius-lifecycle.yml
+- type: Website
+  url: https://movius.ai/
+- type: DeveloperPortal
+  url: https://help.moviuscorp.com/help
+- type: Documentation
+  url: https://help.moviuscorp.com/help
+- type: APIReference
+  url: https://help.moviuscorp.com/help/add-api-user
+- type: GettingStarted
+  url: https://help.moviuscorp.com/help/installation
+- type: Support
+  url: https://help.moviuscorp.com/help
+- type: Blog
+  url: https://movius.ai/blog/
+- type: StatusPage
+  url: https://status.moviuscorp.net/
+- type: ChangeLog
+  url: https://help.moviuscorp.com/help/product-docs
+- type: TermsOfService
+  url: https://movius.ai/terms-of-use/
+- type: PrivacyPolicy
+  url: https://movius.ai/privacy-policy/
+- type: Compliance
+  url: https://movius.ai/security-compliance/
+- type: TrustCenter
+  url: https://movius.ai/security-compliance/

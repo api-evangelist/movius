@@ -1,0 +1,56 @@
+generated: '2026-07-20'
+method: searched
+source: https://movius.ai/security-compliance/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: >-
+    "The security controls for the Movius platform annually undergo SOC 2
+    Type 2 examination against AICPA defined standards." (security-compliance)
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    "Our information security management program is built to comply with the
+    ISO 27001 framework." Movius states ISO/IEC 27001 certification.
+- id: iso-9001
+  conforms: true
+  evidence: Movius states ISO 9001:2015 certification for quality management.
+- id: hipaa
+  conforms: true
+  evidence: >-
+    "MultiLine provides HIPAA-compliant texting and calling"; storage is
+    "HITECH and HIPAA Certified."
+- id: fedramp
+  conforms: true
+  evidence: >-
+    Movius states it is FedRAMP and GovRAMP recognized for its secure
+    communications solution.
+- id: fisma
+  conforms: true
+  evidence: 'Storage compliant with: Federal Information Security Management Act (FISMA).'
+- id: pci-dss
+  conforms: true
+  evidence: 'Storage compliant with: Payment Card Industry (PCI).'
+- id: fips-140-2
+  conforms: true
+  evidence: >-
+    "Your data is protected using FIPS 140-2 Level 3 compliant HSMs and
+    customer owned encryption keys."
+- id: gdpr
+  conforms: true
+  evidence: >-
+    "We ensure ongoing compliance with the General Data Protection Regulation
+    (GDPR)."
+- id: finra-sec-recordkeeping
+  conforms: true
+  evidence: >-
+    Compliant with FINRA and SEC recordkeeping and text-message retention
+    requirements; supports FCA COBS and MiFID II trade-communication archiving.
+- id: oauth2
+  conforms: false
+  evidence: >-
+    The Management REST API authenticates with HTTP basic (API user
+    username/password); no OAuth2 flows are documented.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI or documented problem+json error format.

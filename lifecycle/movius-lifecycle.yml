@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://help.moviuscorp.com/help/product-docs
+versioning:
+  scheme: product-release
+  notes: >-
+    MultiLine ships versioned product releases (e.g. Version 4.08.01) with
+    per-version release notes published in the Help Center Product Documents
+    area. No public API version identifier is documented for the gated
+    Management REST API.
+  docs: https://help.moviuscorp.com/help/product-docs
+release_notes: https://help.moviuscorp.com/help/product-docs
+status_page: https://status.moviuscorp.net/
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No public deprecation/sunset policy documented for the API.
+sla:
+  url: null
+  notes: SLAs are handled through enterprise agreements; none published publicly.
+deprecated_operations: []

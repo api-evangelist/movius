@@ -37,3 +37,29 @@
       latest_authorization: '2026-01-28'
   status: not-a-workflow
   arazzo: null
+- slug: movius-microsoft-teams-own
+  label: Microsoft Teams (own)
+  partner: microsoft-teams
+  partner_name: Microsoft Teams (own)
+  category: Microsoft Teams app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appsource.microsoft.com/en-us/product/office/WA200010233
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: movius-zoom-own
+  label: Zoom (own)
+  partner: zoom
+  partner_name: Zoom (own)
+  category: Zoom app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.zoom.us/apps/gYs984E0TNCueM8Cs-57pw
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null

@@ -64,6 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Movius is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Movius is a secure enterprise mobile communications company whose flagship product, MultiLine, gives employees a separate, compliant business identity (voice, SMS, MMS, and social messaging across WhatsApp, WeChat, Line, and Microsoft Teams) on their personal phones. Marketed as SCaaS (Secure Communication as a Service), the platform is built for regulated industries such as financial services, healthcare, and government, capturing and archiving all communications for FINRA, SEC, MiFID II, FCA COBS, HIPAA, and GDPR compliance. Movius exposes an admin/management REST API through its Management Portal that lets external applications provision and manage API users, assign and reassign numbers, configure compliance policies, and pull reports and communication records into cloud archival systems, alongside packaged integrations for Salesforce and Microsoft Teams.
 
-Backed by: battery-ventures
+**Areas:** Company · Communications · Messaging · Mobile · Telecommunications · Compliance · Security · Voice · SMS · Enterprise
+
+## Movius on APIs.io
+
+Everything profiled for Movius is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/movius/](https://apis.io/providers/movius/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [MultiLine Management REST API](https://apis.io/apis/movius/multiline-management-rest-api/) — Admin/management REST API for MultiLine, used to connect external applications to a Movius organization. Supports provisioning and managing API users,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Movius Authentication](https://apis.io/security/movius/movius-authentication/)
+- [Movius Domain Security](https://apis.io/security/movius/movius-domain-security/)
+- [Movius Trust Center](https://apis.io/security/movius/movius-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://movius.ai/)
+- [Documentation](https://help.moviuscorp.com/help)
+- [Getting started](https://help.moviuscorp.com/help/installation)
+- [API reference](https://help.moviuscorp.com/help/add-api-user)
+- [Support](https://help.moviuscorp.com/help)
+- [Changelog](https://help.moviuscorp.com/help/product-docs)
+- [Blog](https://movius.ai/blog/)
+- [Compliance](https://movius.ai/security-compliance/)
+- [Trust centre](https://movius.ai/security-compliance/)
+- [Terms of service](https://movius.ai/terms-of-use/)
+- [Privacy policy](https://movius.ai/privacy-policy/)
+- [Status](https://status.moviuscorp.net/)
+
+## API Evangelist rating
+
+**Kin Score 31.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 36.8 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/movius/](https://apis.io/providers/movius/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Movius: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/movius/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
